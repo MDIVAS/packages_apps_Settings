@@ -196,6 +196,8 @@ import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.evolution.settings.EvolutionSettings;
 import com.evolution.settings.fragments.HeadsUpSettings;
 
+import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
+
 public class SettingsGateway {
 
     /**
@@ -378,7 +380,8 @@ public class SettingsGateway {
             RegionalPreferencesEntriesFragment.class.getName(),
             EvolutionSettings.class.getName(),
             HeadsUpSettings.class.getName(),
-            LiveDisplaySettings.class.getName()
+            LiveDisplaySettings.class.getName(),
+            WifiTetherClientManager.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
